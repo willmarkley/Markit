@@ -21,12 +21,10 @@ F1:          Save File
 F2:          Save File As  
 MOUSE Left Click:  Moves position to position clicked by mouse (if valid position)  
 TEXTUAL INPUT:     Adds the given input to the screen  
-
-
 #####Key Strokes for Sub Windows
-Blue Boxes are clickable buttons.
-F1:    Selects Left Boxes
-F2:    Selects Right Boxes
+Blue Boxes are clickable buttons.  
+F1:    Selects Left Boxes  
+F2:    Selects Right Boxes  
 
 
 ###Download Instructions:
@@ -44,10 +42,10 @@ F2:    Selects Right Boxes
 
 
 ###Assets (Licensed for non-commercial distribution)
-[SDL2 library](https://www.libsdl.org/download-2.0.php)
-[SDL2 TTF library](https://www.libsdl.org/projects/SDL_ttf/)
-[Markit Icon](http://www.iconeasy.com/icon/letter-m-icon/)
-[Courier True Type Font](https://github.com/caarlos0/msfonts/blob/master/fonts/cour.ttf)
+[SDL2 library](https://www.libsdl.org/download-2.0.php)  
+[SDL2 TTF library](https://www.libsdl.org/projects/SDL_ttf/)  
+[Markit Icon](http://www.iconeasy.com/icon/letter-m-icon/)  
+[Courier True Type Font](https://github.com/caarlos0/msfonts/blob/master/fonts/cour.ttf)  
 
 
 ###Known Issues
