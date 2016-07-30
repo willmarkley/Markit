@@ -1,0 +1,12 @@
+Markit.app
+  --Content
+    --Info.plist
+    --Frameworks
+      --SDL2_ttf.framework
+      --SDL2.framework
+    --MacOS
+      --markit.out
+    --Resources
+      --cour.ttf
+      --Markit.icns
+
