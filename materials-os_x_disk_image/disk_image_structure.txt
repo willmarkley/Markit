@@ -1,0 +1,6 @@
+Markit.dmg
+|
+--Shortcut to Applications (/Applications)
+--Markit.app
+--.background
+  --background.png
