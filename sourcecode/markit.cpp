@@ -678,7 +678,7 @@ bool subwindow_exit_without_saving(string path){
 		SDL_FreeSurface(message[i]);
 	}
 	SDL_DestroyTexture(exitscreen);
-    SDL_DestroyRenderer(exitrenderer);
+	SDL_DestroyRenderer(exitrenderer);
 	SDL_DestroyWindow(exitwindow);
 	TTF_CloseFont(font);
 	return VAL;	
@@ -913,7 +913,7 @@ bool subwindow_save_as(string path, string &filename, bool open){
 		SDL_FreeSurface(message[i]);
 	}
 	SDL_DestroyTexture(subscreen);
-    SDL_DestroyRenderer(subrenderer);
+	SDL_DestroyRenderer(subrenderer);
 	SDL_DestroyWindow(subwindow);
 	TTF_CloseFont(font);
 	return SUCCESS_VAL;	
@@ -1033,7 +1033,7 @@ bool subwindow_open_file(string path, string &filename){
 		SDL_FreeSurface(message[i]);
 	}
 	SDL_DestroyTexture(exitscreen);
-    SDL_DestroyRenderer(exitrenderer);
+	SDL_DestroyRenderer(exitrenderer);
 	SDL_DestroyWindow(exitwindow);
 	TTF_CloseFont(font);
 	return OPENED_FILE;	
