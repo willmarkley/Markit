@@ -1,0 +1,7 @@
+Markit (directory)
+  --Markit.exe
+  --libfreetype-6.dll
+  --SDL2.dll
+  --SDL2_ttf.dll
+  --zlib1.dll
+  --cour.ttf
