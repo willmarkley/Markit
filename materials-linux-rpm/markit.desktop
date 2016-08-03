@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Markit
+Exec=/usr/bin/markit
+Icon=/usr/share/markit/markit.xpm
+Terminal=false
+Type=Application
+Categories=Editor
+
