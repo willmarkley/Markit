@@ -1,7 +1,20 @@
-all:	markit
+CC=		g++
+FLAGS=		-lSDL2 -lSDL2_ttf
+SOURCES=	markit.cpp
+TARGETS=	markit
+PREFIX=		$(DESTDIR)/usr/local
+BINDIR=		$(PREFIX)/bin
 
-markit: markit.cpp
-	g++ -o markit markit.cpp -lSDL2 -lSDL2_ttf
+all:	$(TARGETS)
+
+$(TARGETS): $(SOURCES)
+	$(CC) -o $(TARGETS) $(SOURCES) $(FLAGS)
+
+install: markit
+	install -D $(TARGET) $(BINDIR)/$(TARGET)
+
+uninstall:
+	-rm $(BINDIR)/$(TARGET)
 
 clean:
-	rm -f markit
+	rm -f $(TARGETS)
