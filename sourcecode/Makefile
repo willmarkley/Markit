@@ -2,7 +2,7 @@ CC=		g++
 FLAGS=		-lSDL2 -lSDL2_ttf
 SOURCE=		markit.cpp
 TARGET=		markit
-PREFIX=		$(DESTDIR)/usr/local
+PREFIX=		$(DESTDIR)/usr
 BINDIR=		$(PREFIX)/bin
 
 all:	$(TARGET)
