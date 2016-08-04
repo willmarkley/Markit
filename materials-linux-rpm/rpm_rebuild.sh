@@ -1,3 +1,4 @@
+#!/bin/sh
 rm -rf /home/wmarkley/rpmbuild/BUILDROOT
 rm -rf /home/wmarkley/rpmbuild/BUILD/markit-1.0/
 rm -rf /home/wmarkley/rpmbuild/RPMS/x86_64/
