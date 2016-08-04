@@ -6,11 +6,13 @@ Summary:        Cross Platform Plain-Text editor
 LICENSE:        NONE
 URL:            http://willmarkley.com/markit/
 GROUP:          Applications/Editors
-Source0:        http://willmarkley.com/markit-1.0.tar.gz
+Source0:        http://willmarkley.com/markit/markit-1.0.tar.gz
 
 BuildRequires:  gcc-c++ 
 BuildRequires:  SDL2-devel
 BuildRequires:  SDL2_ttf-devel
+Requires:       SDL2
+Requires:       SDL2_ttf
 
 %description
 Markit is a cross-platform plain text editor developed in C++ by William Markley
