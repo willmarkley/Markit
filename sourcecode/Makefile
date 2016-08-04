@@ -21,7 +21,6 @@ uninstall:
 	-rm $(PREFIX)/share/applications/markit.desktop
 	-rm $(PREFIX)/share/pixmaps/markit.png
 	-rm $(PREFIX)/share/markit/cour.ttf
-	-rm $(BINDIR)/cour.ttf
 
 clean:
 	rm -f $(TARGET)
