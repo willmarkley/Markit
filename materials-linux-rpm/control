@@ -1,0 +1,12 @@
+Source: markit
+Section: Editors
+Priority: optional
+Maintainer: Will Markley <willjmarkley@gmail.com>
+Build-Depends: libsdl2-dev, libsdl2-ttf-dev, g++
+Standards-Version: 3.9.4
+Homepage: http://willmarkley.com/markit/
+
+Package: markit
+Architecture: any
+Depend: libsdl2-2.0-0, libsdl2-ttf-2.0-0
+Description: Cross Platform Plain-Text editor
