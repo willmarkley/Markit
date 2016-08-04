@@ -12,9 +12,13 @@ $(TARGET): $(SOURCE)
 
 install: $(TARGET)
 	install -D $(TARGET) $(BINDIR)/$(TARGET)
+	install -D markit.desktop $(PREFIX)/share/applications/markit.desktop
+	install -D markit.png $(PREFIX)/share/pixmaps/markit.png
 
 uninstall:
 	-rm $(BINDIR)/$(TARGET)
+	-rm $(PREFIX)/share/applications/markit.desktop
+	-rm $(PREFIX)/share/pixmaps/markit.png
 
 clean:
 	rm -f $(TARGET)
