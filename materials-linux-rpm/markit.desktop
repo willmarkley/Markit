@@ -1,8 +1,8 @@
 [Desktop Entry]
 Name=Markit
 Exec=/usr/bin/markit
-Icon=/usr/share/markit/markit.xpm
+Icon=/usr/share/pixmaps/markit.png
 Terminal=false
 Type=Application
-Categories=Utility;Editor;
+Categories=Utility;TextEditor;
 
