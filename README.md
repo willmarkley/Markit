@@ -40,6 +40,7 @@ To Uninstall:  Run the Markit uninstaller under the Markit folder in the start m
 2. Drag Markit.app to Applications Folder
 
 If you are given a security warning when trying to run:
+
 1. Right click Markit.app
 2. Select Open
 3. Select Yes in the dialog box
