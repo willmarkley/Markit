@@ -30,10 +30,21 @@ Blue Boxes are clickable buttons.
 ###Download Instructions:
 
 #####Windows
+1. Download [Markit-1.0-Setup](http://willmarkley.com/markit/Markit-1.0-Setup.exe)
+2. Run the installer
+
+To Uninstall:  Run the Markit uninstaller under the Markit folder in the start menu
 
 #####OS X
-1. Download [Markit.dmg](http:)
+1. Download [Markit-1.0.dmg](http://willmarkley.com/markit/Markit-1.0.dmg)
 2. Drag Markit.app to Applications Folder
+
+If you are given a security warning when trying to run:
+1. Right click Markit.app
+2. Select Open
+3. Select Yes in the dialog box
+
+To Unistall: Drag Markit.app to the Trash
 
 #####Linux - Debian
 
