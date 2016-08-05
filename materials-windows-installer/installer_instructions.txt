@@ -1,0 +1,5 @@
+After compiling executable, use Resource Hacker to add .ico to markit.exe.
+
+Compile the markit-1.0-setup.nsi script to achieve the installer.
+
+Be sure to include the icon, License, and executable folder structure(.exe, .ttf, .dlls) files in the proper places.
