@@ -55,6 +55,9 @@ To Unistall: Drag Markit.app to the Trash
 
 To Unistall: Open the Software application and press "Remove" next to Markit
 
+To Install on Terminal: `sudo dnf install ~/Downloads/markit-1.0-1.x86_64.rpm`  
+To Uninstall on Terminal: `sudo dnf remove markit`
+
 
 ###Assets (Licensed for non-commercial distribution)
 [SDL2 library](https://www.libsdl.org/download-2.0.php)  
