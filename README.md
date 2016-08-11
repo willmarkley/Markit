@@ -27,13 +27,13 @@ Blue Boxes are clickable buttons.
 **F2:**    Selects Right Boxes  
 
 
-###Download Instructions:
+###Installation Instructions:
 
 #####Windows
 1. Download [Markit-1.0-Setup](http://willmarkley.com/markit/Markit-1.0-Setup.exe)
 2. Run the installer
 
-To Uninstall:  Run the Markit uninstaller under the Markit folder in the start menu
+To Uninstall: Run the Markit uninstaller under the Markit folder in the start menu
 
 #####OS X
 1. Download [Markit-1.0.dmg](http://willmarkley.com/markit/Markit-1.0.dmg)
@@ -50,7 +50,10 @@ To Unistall: Drag Markit.app to the Trash
 #####Linux - Debian
 
 #####Linux - Fedora
+1. Download [markit-1.0-1.x86_64.rpm](http://willmarkley.com/markit/markit-1.0-1.x86_64.rpm)
+2. Open RPM with Software Installer and press "Install"
 
+To Unistall: Open the Software application and press "Remove" next to Markit
 
 
 ###Assets (Licensed for non-commercial distribution)
