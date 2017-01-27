@@ -13,6 +13,17 @@
  1. Change Configuration to Active(Release)
  2. Change Runtime Library to "Multi-threaded (/MT)" (under C/C++ > Code Generation in Project Properties)
 
+## Executable Structure
+```
+Markit (directory)
+  --Markit.exe
+  --libfreetype-6.dll
+  --SDL2.dll
+  --SDL2_ttf.dll
+  --zlib1.dll
+  --cour.ttf
+```
+
 # Create Installer (.exe)
  1. After compiling executable, use Resource Hacker to add .ico to markit.exe.
  2. Compile the markit-1.0-setup.nsi script to achieve the installer.
