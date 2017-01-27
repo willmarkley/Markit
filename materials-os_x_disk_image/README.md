@@ -30,4 +30,15 @@ Markit.app
 ```
 
 
-# Create Disk Image
+# Create Disk Image (.dmg)
+## Disk Image Strucuture
+
+```
+Markit.dmg
+|
+--Shortcut to Applications (/Applications)
+--Markit.app
+--.background
+  --background.png
+```
+
