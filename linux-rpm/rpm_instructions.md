@@ -13,9 +13,9 @@ Run the following from non-root user:
 $ rpmdev-setuptree
 ```
 
-Download the .spec file to the ~/rpmbuild/SPECS directory
-Download the rpm_rebuild.sh to the ~/rpmbuild/ directory
--(init_text function of source code modified for .tar.gz to have cour.ttf location)
+Download the .spec file to the ~/rpmbuild/SPECS directory  
+Download the rpm_rebuild.sh to the ~/rpmbuild/ directory  
+Note: init_text function of source code modified for .tar.gz to have cour.ttf location  
 
 ```
 $ ./rpm_rebuild.sh
