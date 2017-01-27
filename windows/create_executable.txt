@@ -1,9 +1,0 @@
-To set up on VS:
-http://lazyfoo.net/tutorials/SDL/01_hello_SDL/windows/msvsnet2010u/index.php
-http://lazyfoo.net/tutorials/SDL/06_extension_libraries_and_loading_other_image_formats/windows/msvsnet2010u/index.php
-Add markit.cpp to project
-Add "_CRT_SECURE_NO_WARNINGS" to Preprocessor Definitions (under C/C++ > Preprocessor in Project Properties)
-
-To move to release:
-Change Configuration to Active(Release)
-Change Runtime Library to "Multi-threaded (/MT)" (under C/C++ > Code Generation in Project Properties)
