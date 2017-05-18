@@ -21,7 +21,7 @@ Markit is a cross platform plain-text editor developed in C++ by William Markley
 **F2:**          Save File As  
 **MOUSE Left Click:**  Moves position to position clicked by mouse (if valid position)  
 **TEXTUAL INPUT:**     Adds the given input to the screen  
-#####Key Strokes for Sub Windows
+##### Key Strokes for Sub Windows
 Blue Boxes are clickable buttons.  
 **F1:**    Selects Left Boxes  
 **F2:**    Selects Right Boxes  
@@ -30,13 +30,13 @@ Blue Boxes are clickable buttons.
 ### Installation Instructions:
 
 ##### Windows
-1. Download [Markit-1.0-Setup](http://willmarkley.com/markit/Markit-1.0-Setup.exe)
+1. Download [Markit-1.0-Setup](https://github.com/willmarkley/Markit/releases/download/1.0/Markit-1.0-Setup.exe)
 2. Run the installer
 
 To Uninstall: Run the Markit uninstaller under the Markit folder in the start menu
 
 ##### OS X
-1. Download [Markit-1.0.dmg](http://willmarkley.com/markit/Markit-1.0.dmg)
+1. Download [Markit-1.0.dmg](https://github.com/willmarkley/Markit/releases/download/1.0/Markit-1.0.dmg)
 2. Drag Markit.app to Applications Folder
 
 If you are given a security warning when trying to run:
@@ -50,7 +50,7 @@ To Unistall: Drag Markit.app to the Trash
 ##### Linux - Debian
 
 ##### Linux - Fedora
-1. Download [markit-1.0-1.x86_64.rpm](http://willmarkley.com/markit/markit-1.0-1.x86_64.rpm)
+1. Download [markit-1.0-1.x86_64.rpm](https://github.com/willmarkley/Markit/releases/download/1.0/markit-1.0-1.x86_64.rpm)
 2. Open RPM with Software Installer and press "Install"
 
 To Unistall: Open the Software application and press "Remove" next to Markit
