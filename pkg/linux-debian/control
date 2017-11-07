@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Will Markley <willjmarkley@gmail.com>
 Build-Depends: libsdl2-dev, libsdl2-ttf-dev, g++
 Standards-Version: 3.9.4
-Homepage: http://willmarkley.com/markit/
+Homepage: https://github.com/willmarkley/Markit
 
 Package: markit
 Architecture: any

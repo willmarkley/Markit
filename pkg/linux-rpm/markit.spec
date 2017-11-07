@@ -4,7 +4,7 @@ Release:        1
 Summary:        Cross Platform Plain-Text editor
 
 LICENSE:        MIT
-URL:            http://willmarkley.com/markit/
+URL:            https://github.com/willmarkley/Markit
 GROUP:          Applications/Editors
 Source0:        http://willmarkley.com/markit/markit-1.0.tar.gz
 
