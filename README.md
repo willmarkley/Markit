@@ -2,6 +2,13 @@
 
 Markit is a cross platform plain-text editor developed in C++ by William Markley.  It offers the ability to open, edit, and write files composed of ASCII characters.  The application relies on the SDL2 and SDL2_ttf graphics libraries to render pixels to the screen.  This desktop application is packaged for Windows(.exe), OS X(.app), RPM Linux, and Debian Linux.  Markit is installed via an .rpm (RPM Linux), .deb (Debian Linux), disk image (OS X), or installer (Windows).
 
+![markit1](https://raw.githubusercontent.com/willmarkley/willmarkley.com/master/img/markit1.png)  
+![markit2](https://raw.githubusercontent.com/willmarkley/willmarkley.com/master/img/markit2.png)  
+![markit3](https://raw.githubusercontent.com/willmarkley/willmarkley.com/master/img/markit3.png)  
+![markit4](https://raw.githubusercontent.com/willmarkley/willmarkley.com/master/img/markit4.png)  
+![markit5](https://raw.githubusercontent.com/willmarkley/willmarkley.com/master/img/markit5.png)  
+![markit6](https://raw.githubusercontent.com/willmarkley/willmarkley.com/master/img/markit6.png)  
+
 
 ### User Manual
 
