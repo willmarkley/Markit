@@ -56,6 +56,10 @@ To Unistall: Drag Markit.app to the Trash
 
 ##### Linux - Debian
 
+<!---
+markit-1.0-.deb
+--->
+
 ##### Linux - Fedora
 1. Download [markit-1.0-1.x86_64.rpm](https://github.com/willmarkley/Markit/releases/download/1.0/markit-1.0-1.x86_64.rpm)
 2. Open RPM with Software Installer and press "Install"
