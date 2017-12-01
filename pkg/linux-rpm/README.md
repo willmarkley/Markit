@@ -3,8 +3,8 @@
 Run the following as root user:
 
 ```
-# dnf install fedora-packager @development-tools
-# usermod -a -G mock wmarkley
+$ sudo dnf install fedora-packager @development-tools
+$ sudo usermod -a -G mock wmarkley
 ```
 
 Run the following from non-root user:
@@ -13,8 +13,8 @@ Run the following from non-root user:
 $ rpmdev-setuptree
 ```
 
-Download the [markit.spec](https://raw.githubusercontent.com/willmarkley/Markit/master/linux-rpm/markit.spec) file to the ~/rpmbuild/SPECS directory  
-Download the [rpm_rebuild.sh](https://raw.githubusercontent.com/willmarkley/Markit/master/linux-rpm/rpm_rebuild.sh) to the ~/rpmbuild/ directory  
+Download the [markit.spec](https://raw.githubusercontent.com/willmarkley/Markit/master/linux-rpm/markit.spec) file to the `~/rpmbuild/SPECS` directory  
+Download the [rpm_rebuild.sh](https://raw.githubusercontent.com/willmarkley/Markit/master/linux-rpm/rpm_rebuild.sh) to the `~/rpmbuild` directory  
 Note: init_text function of source code modified for .tar.gz to have cour.ttf location  
 
 ```
