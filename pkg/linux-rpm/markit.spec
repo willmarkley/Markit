@@ -1,12 +1,12 @@
 Name:           markit
-Version:        1.0 
+Version:        1.1 
 Release:        1
 Summary:        Cross Platform Plain-Text editor
 
 LICENSE:        MIT
 URL:            https://github.com/willmarkley/Markit
 GROUP:          Applications/Editors
-Source0:        http://willmarkley.com/markit/markit-1.0.tar.gz
+Source0:        https://github.com/willmarkley/Markit/archive/1.1.tar.gz
 
 BuildRequires:  gcc-c++ 
 BuildRequires:  SDL2-devel
@@ -19,12 +19,12 @@ Markit is a cross-platform plain text editor developed in C++ by William Markley
 Offers the ability to open, edit, and write files composed of ASCII characters
 
 %prep
-%autosetup
-
+%autosetup -n Markit-1.1
 
 %build
+cd src
+sed -i -e 's/cour.ttf/\/usr\/share\/markit\/cour.ttf/' markit.cpp 
 make
-
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -38,5 +38,8 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Thu Nov 30 2017 William Markley
+- Set sources to be github release
+
 * Tue Aug  2 2016 William Markley
-- 
+- Initial
