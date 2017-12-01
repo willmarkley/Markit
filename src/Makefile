@@ -1,5 +1,6 @@
-CC=		g++
-FLAGS=		-lSDL2 -lSDL2_ttf
+CXX=		g++
+CXXFLAGS=	-std=c++11
+LIBS=		-lSDL2 -lSDL2_ttf
 SOURCE=		markit.cpp
 TARGET=		markit
 PREFIX=		$(DESTDIR)/usr
@@ -8,7 +9,7 @@ BINDIR=		$(PREFIX)/bin
 all:	$(TARGET)
 
 $(TARGET): $(SOURCE)
-	$(CC) -o $(TARGET) $(SOURCE) $(FLAGS)
+	$(CXX) $(FLAGS) -o $(TARGET) $(SOURCE) $(LIBS)
 
 install: $(TARGET)
 	install -D $(TARGET) $(BINDIR)/$(TARGET)
