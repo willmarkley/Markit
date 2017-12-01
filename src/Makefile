@@ -9,7 +9,7 @@ BINDIR=		$(PREFIX)/bin
 all:	$(TARGET)
 
 $(TARGET): $(SOURCE)
-	$(CXX) $(FLAGS) -o $(TARGET) $(SOURCE) $(LIBS)
+	$(CXX) $(CXXFLAGS) -o $(TARGET) $(SOURCE) $(LIBS)
 
 install: $(TARGET)
 	install -D $(TARGET) $(BINDIR)/$(TARGET)
