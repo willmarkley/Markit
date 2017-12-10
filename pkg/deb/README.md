@@ -2,7 +2,7 @@
 
 ```
 # Setup build and download source
-$ sudo apt-get install dh-make
+$ sudo apt-get install dh-make libsdl2-dev libsdl2-ttf-dev
 $ mkdir ~/markit
 $ cd markit
 $ wget https://github.com/willmarkley/Markit/archive/1.1.tar.gz
@@ -22,7 +22,7 @@ $ cp ../pkg/deb/copyright .
 $ cd ..
 
 # Build package
-$ dkpg-buildpackage -us -uc
+$ dpkg-buildpackage -us -uc
 
 
 ```
