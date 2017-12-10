@@ -8,5 +8,5 @@ Homepage: https://github.com/willmarkley/Markit
 
 Package: markit
 Architecture: any
-Depend: libsdl2-2.0-0, libsdl2-ttf-2.0-0
+Depends: libsdl2-2.0-0, libsdl2-ttf-2.0-0
 Description: Cross Platform Plain-Text editor
