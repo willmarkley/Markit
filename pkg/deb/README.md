@@ -1,4 +1,5 @@
-Set-up:
+# Create DEB
+
 ```
 $ sudo apt-get install dh-make
 $ mkdir ~/markit
