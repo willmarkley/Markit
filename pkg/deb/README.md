@@ -24,6 +24,9 @@ $ cd ..
 # Build package
 $ dpkg-buildpackage -us -uc
 
+# Install package
+$ sudo dpkg -i ../markit_1.1-1_amd64.deb
+
 
 ```
 
