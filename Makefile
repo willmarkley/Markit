@@ -11,7 +11,7 @@ BINDIR=		$(PREFIX)/bin
 all:	$(BUILDDIR)$(TARGET)
 
 $(BUILDDIR)$(TARGET): $(SRCDIR)$(SOURCE)
-	mdkir -p $(BUILDDIR)
+	mkdir -p $(BUILDDIR)
 	$(CXX) $(CXXFLAGS) -o $(BUILDDIR)$(TARGET) $(SRCDIR)$(SOURCE) $(LIBS)
 
 install: $(TARGET)
