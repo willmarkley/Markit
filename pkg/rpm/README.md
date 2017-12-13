@@ -20,7 +20,8 @@ $ wget -O ~/rpmbuild/rpm_rebuild.sh https://raw.githubusercontent.com/willmarkle
 # Note: `init_text` function modified to have cour.ttf absolute path in source .tar.gz
 #    *f=TTF_OpenFont("cour.ttf", 12);    -->     *f=TTF_OpenFont("/usr/share/markit/cour.ttf", 12);
 
-$ ./rpm_rebuild.sh
+$ cd rpmbuild
+$ bash rpm_rebuild.sh
 ```
 
 Test install as root:
