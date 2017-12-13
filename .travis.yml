@@ -7,4 +7,5 @@ install:
 script:
   - make
   - cd .. && mkdir -p markit
-  - cp pkg/deb/debbuild.sh ../markit
+  - cp Markit/pkg/deb/debbuild.sh markit
+  - cd markit && bash debbuild.sh
