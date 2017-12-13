@@ -37,7 +37,7 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
-* Thu Dec 13 2017 William Markley
+* Wed Dec 13 2017 William Markley
 - Set sources to be github release
 
 * Tue Aug  2 2016 William Markley
