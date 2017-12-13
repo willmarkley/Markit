@@ -22,8 +22,7 @@ Offers the ability to open, edit, and write files composed of ASCII characters
 %autosetup -n Markit-1.1
 
 %build
-cd src
-sed -i -e 's/cour.ttf/\/usr\/share\/markit\/cour.ttf/' markit.cpp 
+sed -i -e 's/cour.ttf/\/usr\/share\/markit\/cour.ttf/' src/markit.cpp 
 make
 
 %install
