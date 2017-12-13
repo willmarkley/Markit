@@ -14,7 +14,7 @@ $(BUILDDIR)$(TARGET): $(SRCDIR)$(SOURCE)
 	mkdir -p $(BUILDDIR)
 	$(CXX) $(CXXFLAGS) -o $(BUILDDIR)$(TARGET) $(SRCDIR)$(SOURCE) $(LIBS)
 
-install: $(TARGET)
+install: $(BUILDDIR)$(TARGET)
 	install -D $(BUILDDIR)$(TARGET) $(BINDIR)/$(TARGET)
 	install -D $(SRCDIR)markit.desktop $(PREFIX)/share/applications/markit.desktop
 	install -D $(SRCDIR)markit.png $(PREFIX)/share/pixmaps/markit.png
