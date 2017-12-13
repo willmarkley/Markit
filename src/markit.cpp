@@ -833,7 +833,7 @@ bool subwindow_save_as(string path, string &filename, bool open){
 						message[7]=TTF_RenderText_Shaded(font, "Invalid Character                            ", text_color, bg_color);
 					}
 					else{  // all valid characters
-						user_input.insert(user_input.cbegin()+position,event.text.text[0]);
+						user_input.insert(user_input.begin()+position,event.text.text[0]);
 						position++;
 						message[7]=TTF_RenderText_Shaded(font, "                                             ", text_color, bg_color);
 					}
