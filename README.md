@@ -39,13 +39,13 @@ Blue Boxes are clickable buttons.
 ### Installation Instructions:
 
 ##### Windows
-1. Download [Markit-1.0-Setup](https://github.com/willmarkley/Markit/releases/download/1.0/Markit-1.0-Setup.exe)
+1. Download [Markit-1.1-Setup](https://github.com/willmarkley/Markit/releases/download/1.1/Markit-1.1-Setup.exe)
 2. Run the installer
 
 To Uninstall: Run the Markit uninstaller under the Markit folder in the start menu
 
 ##### OS X
-1. Download [Markit-1.0.dmg](https://github.com/willmarkley/Markit/releases/download/1.0/Markit-1.0.dmg)
+1. Download [Markit-1.1.dmg](https://github.com/willmarkley/Markit/releases/download/1.1/Markit-1.1.dmg)
 2. Drag Markit.app to Applications Folder
 
 If you are given a security warning when trying to run:
@@ -65,12 +65,12 @@ To Uninstall on Command Line: `sudo dpkg --purge markit`
 
 
 ##### Linux - Fedora
-1. Download [markit-1.0-1.x86_64.rpm](https://github.com/willmarkley/Markit/releases/download/1.0/markit-1.0-1.x86_64.rpm)
+1. Download [markit-1.1-1.x86_64.rpm](https://github.com/willmarkley/Markit/releases/download/1.1/markit-1.1-1.x86_64.rpm)
 2. Open RPM with *Software Installer* and press "Install"
 
 To Unistall: Open the *Software* application and press "Remove" next to Markit
 
-To Install on Command Line: `sudo dnf install ~/Downloads/markit-1.0-1.x86_64.rpm`  
+To Install on Command Line: `sudo dnf install ~/Downloads/markit-1.1-1.x86_64.rpm`  
 To Uninstall on Command Line: `sudo dnf remove markit`
 
 
