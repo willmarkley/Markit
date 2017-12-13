@@ -13,8 +13,8 @@ Run the following from non-root user:
 $ rpmdev-setuptree
 
 # download markit.spec and rpm_rebuild.sh
-$ wget -O ~/rpmbuild/SPECS/markit.spec https://raw.githubusercontent.com/willmarkley/Markit/master/linux-rpm/markit.spec
-$ wget -O ~/rpmbuild/rpm_rebuild.sh https://raw.githubusercontent.com/willmarkley/Markit/master/linux-rpm/rpm_rebuild.sh
+$ wget -O ~/rpmbuild/SPECS/markit.spec https://raw.githubusercontent.com/willmarkley/Markit/master/rpm/markit.spec
+$ wget -O ~/rpmbuild/rpm_rebuild.sh https://raw.githubusercontent.com/willmarkley/Markit/master/rpm/rpm_rebuild.sh
 
 # Note: `init_text` function modified to have cour.ttf absolute path in source .tar.gz
 #    *f=TTF_OpenFont("cour.ttf", 12);    -->     *f=TTF_OpenFont("/usr/share/markit/cour.ttf", 12);
