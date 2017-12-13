@@ -4,6 +4,7 @@ Run the following as root user:
 
 ```
 $ sudo dnf install fedora-packager @development-tools
+$ sudo dnf install gcc-c++ SDL2-devel SDL2_ttf-devel
 $ sudo usermod -a -G mock wmarkley
 ```
 
