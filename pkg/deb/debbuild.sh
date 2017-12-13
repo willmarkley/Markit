@@ -12,12 +12,13 @@ sed -i -e 's/cour.ttf/\/usr\/share\/markit\/cour.ttf/' markit-1.1/src/markit.cpp
 tar -czvf markit-1.1.tar.gz markit-1.1/
 
 # Setup debian package format
-cd markit-1.1 && echo -e "s\n" | dh_make -e willjmarkley@gmail.com -c mit -f ../markit-1.1.tar.gz         # Select 's' as type of package
+cd markit-1.1
+echo -e "s\n" | dh_make -e willjmarkley@gmail.com -c mit -f ../markit-1.1.tar.gz       # Select 's' as type of package
 
 # Modify the debian/ files
-cd markit-1.1/debian && rm *ex *EX README.* control copyright
-cp markit-1.1/pkg/deb/control markit-1.1/debian
-cp markit-1.1//pkg/deb/copyright markit-1.1/debian
+rm debian/*ex debian/*EX debian/README.* debian/control debian/copyright 
+cp pkg/deb/control debian
+cp pkg/deb/copyright debian
 
 # Build package
-cd markit-1.1 && dpkg-buildpackage -us -uc
+dpkg-buildpackage -us -uc
