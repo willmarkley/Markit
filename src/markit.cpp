@@ -10,6 +10,7 @@
 #include <fstream>
 #include <cstdlib>
 #include <sys/stat.h>
+#include <stdexcept>
 using namespace std;
 
 bool init_graphics(SDL_Window**, SDL_Renderer**, string, string, bool);   // initializes graphics
