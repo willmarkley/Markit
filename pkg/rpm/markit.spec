@@ -18,6 +18,8 @@ Requires:       SDL2_ttf
 Markit is a cross-platform plain text editor developed in C++ by William Markley
 Offers the ability to open, edit, and write files composed of ASCII characters
 
+%global debug_package %{nil}
+
 %prep
 %autosetup -n Markit-1.1
 
