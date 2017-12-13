@@ -12,6 +12,7 @@ all:	$(BUILDDIR)$(TARGET)
 
 $(BUILDDIR)$(TARGET): $(SRCDIR)$(SOURCE)
 	mkdir -p $(BUILDDIR)
+	cd $(BUILDDIR) && ln -s ../$(SRCDIR)/cour.ttf cour.ttf && cd ..
 	$(CXX) $(CXXFLAGS) -o $(BUILDDIR)$(TARGET) $(SRCDIR)$(SOURCE) $(LIBS)
 
 install: $(BUILDDIR)$(TARGET)
