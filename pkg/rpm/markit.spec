@@ -22,7 +22,6 @@ Offers the ability to open, edit, and write files composed of ASCII characters
 %autosetup -n Markit-1.1
 
 %build
-sed -i -e 's/cour.ttf/\/usr\/share\/markit\/cour.ttf/' src/markit.cpp 
 make
 
 %install
@@ -37,7 +36,7 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
-* Thu Nov 30 2017 William Markley
+* Thu Dec 13 2017 William Markley
 - Set sources to be github release
 
 * Tue Aug  2 2016 William Markley
