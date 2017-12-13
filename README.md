@@ -57,19 +57,21 @@ If you are given a security warning when trying to run:
 To Unistall: Drag Markit.app to the Trash
 
 ##### Linux - Debian
+1. Download [markit_1.1-1_amd64.deb](https://github.com/willmarkley/Markit/releases/download/1.1/markit_1.1-1_amd64.deb)
+2. Open DEB with *Package Installer* and press "Install"
 
-<!---
-markit-1.0-.deb
---->
+To Install on Command Line: `sudo dpkg -i markit_1.1-1_amd64.deb`  
+To Uninstall on Command Line: `sudo dpkg --purge markit`
+
 
 ##### Linux - Fedora
 1. Download [markit-1.0-1.x86_64.rpm](https://github.com/willmarkley/Markit/releases/download/1.0/markit-1.0-1.x86_64.rpm)
-2. Open RPM with Software Installer and press "Install"
+2. Open RPM with *Software Installer* and press "Install"
 
-To Unistall: Open the Software application and press "Remove" next to Markit
+To Unistall: Open the *Software* application and press "Remove" next to Markit
 
-To Install on Terminal: `sudo dnf install ~/Downloads/markit-1.0-1.x86_64.rpm`  
-To Uninstall on Terminal: `sudo dnf remove markit`
+To Install on Command Line: `sudo dnf install ~/Downloads/markit-1.0-1.x86_64.rpm`  
+To Uninstall on Command Line: `sudo dnf remove markit`
 
 
 ### Assets (Licensed for non-commercial distribution)
